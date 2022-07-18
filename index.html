@@ -226,7 +226,7 @@
            <li class="footer-li"><a href="tel:+380991111111" class="telmail2">+38 099 111 11 11</a></li>
        </ul></address>
         </div>
-       <section class="dopsection">
+       <div class="dopsection">
         <h2 class="join">присоединяйтесь</h2>
         <ul class="bottomjoin">
             <li class="bottom-links"><a href="" class="bottom-link"><svg class="social-svg">
@@ -242,8 +242,8 @@
                 <use href="./images/symbol-defs.svg#linkedin2"></use>
             </svg></a></li>
         </ul>
-       </section>
-       <section class="dopsection">
+    </div>
+       <form class="dopsection">
         <h2 class="join ,display">Подпишитесь на рассылку</h2>
         <div class="flex">
         <input type="email" name="mail" placeholder="E-mail" class="bottom_input">
@@ -251,7 +251,7 @@
             <use href="./images/symbol-defs.svg#icon-send" ></use>
         </svg></button>
         </div>
-    </section>
+       </form>
     </div>
     </footer>
     <div class="backdrop , is-hidden" data-modal>
@@ -267,7 +267,7 @@
                     <svg class="form_name , form_svg">
                         <use href="./images/symbol-defs.svg#Name"></use>
                     </svg>
-                </div>  
+                    </div>  
                 </div>
                 <div class="form_field">
                     <label for="tel" class="form_lable">Телефон</label>
@@ -293,9 +293,12 @@
                     <textarea name="comment" id="comment" placeholder="Введите текст"  class="form_textarea"></textarea>
                 </div>
                 </div>
-                <div class="privatdiv">
-                    <input type="checkbox" name="privat" id="privat" class="checkbox">
-                    <label for="privat" class="privattext">Соглашаюсь с рассылкой и принимаю <a href="" class="privat">Условия договора</a></label>
+                <div>
+                    <label class="label_check">
+                    <input type="checkbox" name="privat" class="checkbox">
+                    <span class="icon"></span>
+                    Соглашаюсь с рассылкой и принимаю<a class="privat">Условия договора</a>
+                    </label>
                 </div>
                 <button type="submit" class="send_button">Отправить</button>
             </div>
