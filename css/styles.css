@@ -692,6 +692,7 @@ textarea{
     color: var(--brand-color);
     padding: 0px;
     padding-left: 3px;
+    
 }
 .send_button{
     padding: 10px 55px 10px 55px;
@@ -780,6 +781,11 @@ textarea{
     display: flex;
     align-items: center;
     padding: 20px 10px 30px 10px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--second-color);
 }
 
 
